@@ -1,0 +1,23 @@
+.Box {
+    width: 100%;
+}
+.Box_itew {
+    width: 50%;
+    height:200px;
+}
+/* utilty classes */
+
+.bg-grey {
+    background: grey;
+}
+.bg-yellowgreen {
+    background: yellowgreen;
+}
+.d-i-block {
+    display:inline-block;
+}
+.boxModel {
+    width: 200%;
+    height:200px;
+    border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+*,
+* ::before,
+* ::after{
+    box-sizing: 200px
+}
+
+/*:root {
+    font-size: 10px;
+}*/
+
+.animacia{
+    background-color: blue;
+    height:20vh;
+    cursor: pointer;
+    transition-duration: 1100ms;
+    transition-property: background;
+    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition-delay: 300ms;
+}
+
+.animacia:hover{
+    background-color: red;
+}
+
+.animacia:active {
+
+    background-color: yellow;
+}
+
+.text1{
+    font-size: 1rem;
+}
+
+.text2{
+    font-size: 2rem;
+}
+
+.text3{
+    font-size: 3rem;
+    z-index: 100;
+}
+
+.animacia{
+    position: fixed; right: 0px; left: 0px;
+  z-index: 1;
+}
